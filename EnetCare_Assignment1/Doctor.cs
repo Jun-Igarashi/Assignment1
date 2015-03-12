@@ -5,10 +5,7 @@ using System.Web;
 
 namespace EnetCare
 {
-    public class DistributionCenter
+    public class Doctor : Employee
     {
-        public void DistributionCenter()
-        {
-        }
     }
 }
