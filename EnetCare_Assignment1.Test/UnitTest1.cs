@@ -34,6 +34,32 @@ namespace EnetCare.Test
         }
 
 
+        [TestMethod]
+        public void TestIf_Login_Success()
+        {
+            //UserModel usermodel = new UserModel;
+            // String userName = "", password = "";
+
+            //Assert.IsTrue(usermodel.login(userName,password) is User);
+
+            //I thought iterating and picking up user from usermodel would be good, but will it have security issue?
+            //But if so, should we iterate through whole list? Any scalability concerns that way? 
+        }
+
+        [TestMethod]
+        public void TestLogin_If_UserName_DontMatch()
+        {
+            //UserModel usermodel = new UserModel;
+            // String userName = "", password = "";
+            //Assert.IsTrue(usermodel.login(userName,password) is User);
+        }
+        [TestMethod]
+        public void TestLogin_If_Password_DontMatch()
+        {
+            //UserModel usermodel = new UserModel;
+            // String userName = "", password = "";
+            //Assert.IsTrue(usermodel.login(userName,password) is User);
+        }
 
     }
 }
